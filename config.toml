@@ -1,0 +1,217 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Restaurant Theme By Themefisher"
+theme="restaurant-hugo"
+summaryLength = "7"
+
+
+
+# Menu
+[menu]
+	
+	[[menu.nav]]
+    name = "Home"
+    URL = "hero-area"
+    weight = 1
+
+    [[menu.nav]]
+    name = "About Us"
+    URL = "about-us"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Price"
+    URL = "price"
+    weight = 4
+
+    [[menu.nav]]
+    name = "News"
+    URL = "subscribe"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contact Us"
+    URL = "contact-us"
+    weight = 6
+
+
+
+# Global Settings
+[params]
+logo = "images/logo.png"
+
+
+[params.heroArea]
+enable = true
+[params.heroImg ] 
+url =  "images/header.jpg" 
+
+
+#gallery item
+
+[params.gallery]
+enable = true
+title= "Featured <span>Menu</span>"
+
+[[params.gallery.item]]
+img = "images/slider/oo.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/bb1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/aa.jpg"
+
+
+[[params.gallery.item]]
+img = "images/slider/bb1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/oo.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/aa.jpg"
+
+
+
+
+[params.about]
+enable = true
+title= " <span> WB café</span> "
+bgImage = "images/cook.jpg"
+description= " wheat bread café ร้านกาแฟวินเทจสไตร์ยุค 90 ชิดใกล้ธรรมชาติ ด้วยกลิ่นกาแฟ และอาหารทานเล่น -free wifi -forest view อ-ศ : 9.00-20.00 น ส,อา: 10.00-00.00 น 📍 พิกัดแถวเขารัง ถนน คอซิมบี้ (ร้านอยู่บนยอดเขา) ตลาดใหญ่ , เมืองภูเก็ต , ภูเก็ต "
+
+
+
+
+#food Menu
+
+[params.foodMenu]
+enable = true
+title = "Our Easy <span>PRICE</span>"
+description= " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+subtitle = "FEATURED ON THE WEEK"
+
+[[params.foodMenu.item]]
+title="Pancakes n' Such Titas"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 125.00"
+
+[[params.foodMenu.item]]
+title="Caesar Salad"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 100.00"
+
+[[params.foodMenu.item]]
+title="Steak with a Garlic and Parsley Risotto"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 20.00"
+
+[[params.foodMenu.item]]
+title="Meat of Skewers"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 45.00"
+
+[[params.foodMenu.item]]
+title="Pancakes n' Such"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 25.00"
+
+
+
+#subscription
+
+[params.subscription]
+enable = true
+title= "SUBSCRIBE to our <span>NEWSLETTER</span>"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+#Mailchimp subscription configaration 
+formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+
+#Contact 
+
+[params.contact]
+enable = true
+title= "our <span> Contact Us </span>"
+subtitle= "SIGN UP FOR EMAIL ALERTS"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+
+#Footer 
+
+[params.footer]
+enable = true
+contactInfoTitle = "CONTACT <span>INFO</span> "
+blogTitle = "LATEST <span>BLOG POSTS</span>"
+galleryTitle = "PHOTO <span>STREAM</span>"
+socialTitle = "Follow <span>US</span>"
+
+[[params.footer.contactItem]]
+title="Telephone"
+icon = "fa fa-phone"
+content = "016742 323313"
+
+[[params.footer.contactItem]]
+title="Address"
+icon = "fa fa-map-marker"
+content = "2046 Blue Spruce Lane Laurel Canada"
+
+[[params.footer.contactItem]]
+title="E mail"
+icon = "fa fa-envelope"
+content = "rest@gmail.com - rest@mail.ru"
+
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://fb.com/themefisher"
+
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "dribbble"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://fb.com/themefisher"
+
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "Copyright 2019 - All Rights Reserved.Design and Developed By Themefisher.com"
+
+
+
+
+#blog 
+[params.blog]
+enable = true
+title = "Latest <span>From</span> the <span>Blog</span>"
+
+
+
+
+
+
+
+
+
